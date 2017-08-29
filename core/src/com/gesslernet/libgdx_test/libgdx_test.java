@@ -24,7 +24,11 @@ public class libgdx_test extends ApplicationAdapter {
 		batch.draw(img, 0, 0);
 		batch.end();
 	}
-	
+
+	public void update() {
+		//Nothing to add here yet!
+	}
+
 	@Override
 	public void dispose () {
 		batch.dispose();
